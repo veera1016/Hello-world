@@ -1,13 +1,9 @@
-const express = require('express')
-const app = express()
+const express = require('express');
 
-const port = process.env.PORT || 3000;
+const app = express();
 
-app.get('/', (req, res) => res.send('Hello World'))
-
-app.listen(port, (err) => {
-		    if (err) {
-			    		          console.log('Error::', err);
-			    		        }
-		    console.log(`Onexlab app listening on port ${port}`);
+app.get('/', function (req, res){
+    res.send("Hello World");
 });
+
+app.listen(80);
