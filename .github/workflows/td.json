@@ -54,7 +54,5 @@
     ],
     "cpu": "256",
     "memory": "512",
-    "registeredAt": "2024-06-08T14:55:31.754Z",
-    "registeredBy": "arn:aws:iam::471112998566:user/ashok",
     "tags": []
 }
